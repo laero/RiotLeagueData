@@ -6,5 +6,10 @@ var lolData = require("./lib/loldata");
 lolData.initialize('key-goes-here');
 
 lolData.getChampions(true, function(err, data) {
-	console.log(data);
+	if (!err) {
+		console.log(data);
+	}
+	else {
+		console.log("Error code: " + err.status + " " + err.status.message);
+	}
 });
