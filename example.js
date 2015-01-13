@@ -1,5 +1,5 @@
 
-//Rudimentary
+//Rudimentary 
 
 var lolData = require("./lib/loldata");
 
