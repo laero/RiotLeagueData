@@ -1,2 +1,2 @@
 # RiotLeagueData
-Node.js bindings for Riot's API. Used to retrieve data relating to League of Legends.
+Node.js bindings for Riot Games API (Beta). Used to retrieve data relating to League of Legends.
